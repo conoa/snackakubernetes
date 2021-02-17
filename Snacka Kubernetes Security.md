@@ -54,7 +54,9 @@ kubectl get ds
 kubectl logs -f falco-gst58 # Replace with one of your pods
 </PRE>
 
+
 ### Open another terminal window:
+<PRE>
 kubectl run andy --image=centos:7 -- sleep 100000
 kubectl get pods 
 kubectl exec -it andy -- bash
